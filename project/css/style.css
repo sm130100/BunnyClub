@@ -4,11 +4,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  min-height: 100vh;
-  background-image: url(../images/Home\ \(1\).png); 
+body.home{
+  min-height: 25%;
+  background-image: url(../images/Homenew.PNG); 
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100% auto;
   background-attachment: fixed;
 }
 .header{
@@ -24,12 +24,12 @@ body{
   z-index: 100;
 }
 
-.logo{
+/*.logo{
   font-size: 32px;
   color: white;
   text-decoration: none;
   font-weight: 700;
-}
+}*/
 
 .navbar a {
   position: relative;
@@ -71,10 +71,44 @@ body{
   background: white;
   padding: 100px;
 }
+/*about page*/
+.page-1{
+  background-color: white;
+}
 .about sec{
   position: relative;
   background: white;
-  padding: 100px;
+  padding: 100px; 
+}
+.about h2{
+  position: relative;
+  right: -1000px
+}
+.about img{
+  position: relative;
+  left: -400px;
+}
+.gif{
+  position: relative;
+  left: -400px;
+}
+
+.me{
+  position: absolute;
+  top: -350px;
+  right: -400px;
+  max-width: 100%;
+  transform: translateX(70%) scale(120%);
+}
+
+.about p{
+  font-size: 1em;
+  color: black;
+  font-weight: 300;
+  text-justify: auto;
+  position:relative; 
+  top:20px;
+  right: -1000px;
 }
 
 .map sec{
@@ -88,17 +122,18 @@ body{
   margin-bottom: 10px;
 }
 .sec p{
-  font-size: 1em;
+  font-size:1em;
   color: black;
   font-weight: 300;
 }
-
+/*gallery page*/
 .frostmus{
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -25%;
+  margin-right: -5%;
+  margin-left: -8%;
   background: white;
   padding: 100px;
 }
@@ -112,10 +147,10 @@ body{
   background: white;
   padding: 100px;
 }
-::-webkit-scrollbar {display:none;} 
+*::-webkit-scrollbar {display:none;} */
 
 
-/*gallery page*/
+
 .Gallery{
  
 @font-face {
